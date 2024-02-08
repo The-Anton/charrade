@@ -7,6 +7,22 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+@font-face {
+  font-family: "RedHatDisplayBold";
+  src: local("RedHatDisplayBold"),
+   url("./fonts/RedHat/RedHatDisplay-Bold.ttf") format("truetype");
+  font-weight: bold;
+ }
+ 
+ @font-face {
+  font-family: "RedHatDisplayRegular";
+  src: local("RedHatDisplayRegular"),
+   url("./fonts/RedHat/RedHatDisplay-Regular.ttf") format("truetype");
+ }
+
+*{
+  font-family: RedHatDisplayRegular;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
